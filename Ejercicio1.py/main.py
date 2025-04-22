@@ -1,3 +1,6 @@
+""" Al ejecutar el código se abre una ventana gráfica en tkinter que muestra la Torre de Hanói y permite visualizar el movimiento de las piedras.
+Puede que no se te abra directamente. Se puede ver si pinchas en la pagina que se abre en la vbarra de herramientas de abajo en el ordenador """
+
 from lanzador import TorreDeHanoiVisual  # Importa la clase TorreDeHanoiVisual desde el módulo lanzador.
 import tkinter as tk  # Importa la biblioteca tkinter para crear interfaces gráficas.
 
