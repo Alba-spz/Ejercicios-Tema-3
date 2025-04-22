@@ -1,3 +1,6 @@
+""" Al ejecutar el codigo se abre una ventana con la Torre de Hanói, donde se muestran las piedras y las torres.
+Puede que la ventana no se abra de inmediato, pero en la barra de tareas sí se verá la ventana."""
+
 import tkinter as tk
 import time
 
@@ -26,6 +29,8 @@ class TorreDeHanoi:
         self.num_piedras = num_piedras
         self.canvas = tk.Canvas(master, width=600, height=300, bg="white")
         self.canvas.pack()
+
+        self.movimientos = 0  # ← inicializamos el contador de movimientos
 
         self.torres = {"A": [], "B": [], "C": []}
         self.posiciones = {"A": 100, "B": 300, "C": 500}
